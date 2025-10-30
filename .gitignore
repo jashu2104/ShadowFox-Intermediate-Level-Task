@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
+
+# Large or sensitive binaries (do NOT push)
+*.exe
+*.dll
+*.bin
+*.hc
+*.tc
+*.container
+*.cap
+*.pcap
+*.pcapng
+payload*.exe
+practice_container.hc
+
+# hashcat / cracking files
+*.hccapx
+*.22000
+
+# other
+*.log.gz
